@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 5px 0;
+}
+.logo img{
+    width: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 1 20px;
+}
+a{
+    color: rgb(123, 11, 74);
+    text-decoration-line: none;
+}
+nav ul li{
+    color: rgb(123, 11, 74);  
+}
+.container button img{
+    width: 15px;
+}
+.container button{
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: rgb(123, 11, 74);
+    padding: 5px;
+    margin:15px ;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 11, 74);
+    color: #fff;
+    padding: 75px;
+}
+header h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+header h5{
+    margin-top:5px;
+}
+.row{
+    display: flex ;
+    align-items: center;
+    overflow-y: hidden;
+}
+.strophe{
+    position: relative;
+    width: 300px;
+    left: 850px;
+    bottom: 200px;
+}
+.col-2 img{
+    width: 75%;
+    padding: 100px;
+    margin: 50px;
+}
+.col-2{
+    width: 80%;
+    font-size: 15px;
+    margin: -20px;
+}
+.col-2 h3{
+    position: relative;
+    bottom: 170px;
+    left: 150px;
+}
+.col-2 p{
+    position: relative;
+    bottom: 170px;
+    left: 150px;
+    color: red;  
+}
+.mjd{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mjd h3{
+    line-height: 50px;
+}
+button{
+    position: relative;
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    margin : 20px 10px;
+    border: 2px solid red;
+    background: transparent;
+    color: #fff;
+}
+.offer{
+    background: rgb(123, 11, 74);
+    margin-top: 30px;
+    padding: 30px 25%;
+}
+.img1{
+    position: absolute;
+    left: -50px;
+    bottom: -785px;
+}
+.img2{
+    position: absolute;
+    left: -15px;
+    bottom: -920px;
+}
+.img3{
+    position: absolute;
+    right: -5px;
+    bottom: -785px;
+}
+.img4{
+    position: absolute;
+    right: 100px;
+    bottom: -610px;
+}
+.col-3{
+    text-align: center;
+    font-size: 20PX;
+    padding-top: 40PX;
+    color: #fff;
+}
+.btn1{
+    display:inline-block ;
+    padding: 10px 20px;
+    text-decoration-line: none;
+    background: RED;
+    color: #fff;
+}
+.footer{
+    background: black;
+    color: #808080;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #808080;
+}
+.footer h3{
+    color: red;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis:20%;
+    padding-left: 100px;
+    margin-left: 30px;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-3{
+    padding-top: 40px;
+}
+input{
+    padding: 5px;
+}
+.gg-chevron-double-right{
+    position: relative;
+    bottom: 25px;
+    left: 150px;
+}
+.footer hr{
+    border: none;
+    background: #808080;
+    height: 1px;
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 60px;
+}
+.app{
+    display: flex;
+    color: #fff;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+.Copyright{
+    margin-left: 1200px;
+    margin-bottom: 150px;
+}
